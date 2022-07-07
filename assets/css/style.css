@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Space+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #0d0d0d;
+    background-color: #ffffff;
+}
+
+/* HEADINGS AND LOGO*/
+
+h1,
+h2 {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #050505;
+
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    color: #050505;
+    margin-left: 30px;
+}
+
+/* NAVIGATION LINKS */
+#menu {
+    font-size: 110%;
+    letter-spacing: 5px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+}
+
+#menu li a {
+    display: block;
+    color: #050505;
+    text-align: center;
+    padding: 0px 35px;
+    text-decoration: none;
+    font-weight: 799;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 2px solid #fef9f8;
+}
+
+#menu a:hover:not(.active) {
+    color: #050505;
+    background-color: #ef9273;
+}
+
+#menu a.active {
+    color: #050505;
+    background-color: #ef9273;
+}
